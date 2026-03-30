@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1774827257.09508 "templateBase.tex" "templateBase.pdf" "templateBase" 1774827259.3744 0
+["pdflatex"] 1774832669.13926 "templateBase.tex" "templateBase.pdf" "templateBase" 1774832671.55706 0
   "/etc/texmf/web2c/texmf.cnf" 1761868465.64365 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -18,11 +18,13 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuguese.ldf" 1625860693 6599 898431e984e4e8b6d8aa6cdcb036f8db ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty" 1704662920 150008 7a05b0fdc0167c04e192003e780ab195 ""
@@ -60,10 +62,12 @@
   "figures/Logo_UnB.png" 1774099036.05275 4319 0ada406feb0bd95e475f6e51c11f2abd ""
   "figures/Logo_Vertical_01.png" 1774099038.35706 231401 b607ce98ea086bbaef13addebd68e7ba ""
   "figures/MOPADiagrama.png" 1774827092.80619 76578 e7d74ef7c7a691443351ecd87d45eaa7 ""
+  "figures/driverB6.png" 1774832077.97274 210180 6b0803434036d7f10593f78c4473b7e1 ""
+  "figures/driversFolderB6.png" 1774832265.44068 7668 5e86101bdf722e3326f2d70895b05f57 ""
   "figures/frenteB6Anotada.png" 1774821419.45161 59153 332b609ff04f7524f1cedef06ec717db ""
   "figures/trasB6Anotada.png" 1774821689.91649 76794 0ae524485b7ab66b138a94f7028cc637 ""
-  "templateBase.aux" 1774827259.32147 3086 76ebfc246d0dd23e5aaa0545ff6e303f "pdflatex"
-  "templateBase.tex" 1774827253.42952 4920 0c6b6cf09a87ed54e3c22aec56e47091 ""
+  "templateBase.aux" 1774832671.49925 3578 38086e82423672ad5625b461258d913a "pdflatex"
+  "templateBase.tex" 1774832668.71327 7077 6fc228a341e0076625da800d28e04636 ""
   (generated)
   "templateBase.aux"
   "templateBase.log"
