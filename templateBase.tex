@@ -129,10 +129,70 @@ Agora, deve-se atualizar o driver do dispositivo para ser reconhecido adequadame
 
 \newpage
 \section{Procedimento Operacional}
-Antes de ligar a gravadora, é necessário verificar se os cabos de energia da gravadora e do extrator estão ligados e conectar o cabo USB de dados da gravadora no computador a ser utilizado. Feito isso e verificado a conexão adequado dos cabos, ligam-se a gravadora(a partir do \textit{Switch} de ligar) e a extratora(girando o botão de potência para a potência requerida para o processo).
+Antes de ligar a gravadora, é necessário verificar se os cabos de energia da gravadora e do extrator estão ligados e conectar o cabo USB de dados da gravadora no computador a ser utilizado. Feito isso e verificada a conexão adequada dos cabos, liga-se a gravadora(a partir do \textit{Switch} de ligar) e a extratora(girando o botão de potência para a potência requerida para o processo).
 
 Com os aparelhos ligados e o cabo USB de dados da gravadora conectado ao computador, inicializa-se o software de preferência, podendo ser utilizado tanto o \textit{Lightburn} quanto o \textit{EZCAD}. Este manual utiliza por base o \textit{Lightburn} por ter uma interface mais clara e objetiva, facilitando o uso. 
 Ao inicializar o software, caso for a primeira vez, deve-se configurar a gravadora para ser reconhecida pelo software. Para isso, logo ao abrir o software, clica-se em "Find My Laser"
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=0.95\textwidth]{figures/settingUp/findMyLaser.png}
+  \end{center}
+  \caption{Find My Laser}\label{fig:}
+\end{figure}
+
+Ao encontrar o laser, adiciona-se o laser ao LightBurn clicando em \textit{Add Device}.
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=0.95\textwidth]{figures/settingUp/laserFound.png}
+  \end{center}
+  \caption{Laser Found}\label{fig:}
+\end{figure}
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=0.95\textwidth]{figures/settingUp/150150.png}
+  \end{center}
+  \caption{Laser Dimensions}\label{fig:}
+\end{figure}
+
+Precisamos então carregar o arquivo de configuração do EZCad:
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=0.95\textwidth]{figures/settingUp/EZCadConfigFile.png}
+  \end{center}
+  \caption{EZCad Config File}\label{fig:}
+\end{figure}
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=0.95\textwidth]{figures/settingUp/Step1done.png}
+  \end{center}
+  \caption{EZCad Config File}\label{fig:}
+\end{figure}
+
+Feito isso, o primeiro passo foi completo.
+
+Por fim, acessamos Device Settings e ajustamos os parâmetros do Galvo 1 e Galvo 2 para os valores mostrados na figura \ref{fig:parametros}
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[width=0.95\textwidth]{figures/settingUp/deviceSettings.png}
+  \end{center}
+    \caption{Device Settings}\label{fig:}
+\end{figure}
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[width=0.95\textwidth]{figures/settingUp/paramsDevice.png}
+  \end{center}
+  \caption{Parâmetros de Calibração}\label{fig:parametros}
+\end{figure}
+
+
+
 \section{Checklist de Pré-Impressão}
 \section{Preparação da Mesa}
 \section{Calibração}
@@ -144,5 +204,4 @@ Ao inicializar o software, caso for a primeira vez, deve-se configurar a gravado
 \section{Checklist de Pós-Impressão}
 \section{Critérios de Qualidade da Impressão}
 \section{Referências}
-\newpage
 \end{document}
