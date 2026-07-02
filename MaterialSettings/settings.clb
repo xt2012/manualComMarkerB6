@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightBurnLibrary DisplayName="settings">
+    <Material name="Copper">
+        <Entry Thickness="-1.0000" Desc="remove copper" NoThickTitle="18um">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Copper/18um/remove copper"/>
+                <maxPower Value="95"/>
+                <maxPower2 Value="20"/>
+                <speed Value="867"/>
+                <frequency Value="27750"/>
+                <QPulseWidth Value="100"/>
+                <numPasses Value="15"/>
+                <anglePerPass Value="90"/>
+                <interval Value="0.04"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="18um border finish. Straight cut edges." NoThickTitle="CopperBorderFinish">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Copper/CopperBorderFinish/18um border finish. Straight cut edges."/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1500"/>
+                <frequency Value="27750"/>
+                <QPulseWidth Value="25"/>
+                <numPasses Value="300"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="0.2mm Tracks tested." NoThickTitle="SmallTracksCopperRemoval">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Copper/SmallTracksCopperRemoval/0.2mm Tracks tested."/>
+                <maxPower Value="95"/>
+                <maxPower2 Value="20"/>
+                <speed Value="867"/>
+                <frequency Value="27750"/>
+                <QPulseWidth Value="50"/>
+                <numPasses Value="10"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <dotWidth Value="0.015"/>
+                <useDotCorrection Value="1"/>
+                <interval Value="0.015"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="0.2mm Tracks tested." NoThickTitle="SmallTracksCopperRemovalFinish">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Copper/SmallTracksCopperRemovalFinish/0.2mm Tracks tested."/>
+                <maxPower Value="40"/>
+                <maxPower2 Value="20"/>
+                <speed Value="867"/>
+                <QPulseWidth Value="50"/>
+                <numPasses Value="8"/>
+                <dotWidth Value="0.005"/>
+                <useDotCorrection Value="1"/>
+                <interval Value="0.015"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+                <hide Value="1"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Cutting" NoThickTitle="CopperBoardCutting">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Copper/CopperBoardCutting/Cutting"/>
+                <maxPower Value="80"/>
+                <maxPower2 Value="20"/>
+                <speed Value="50"/>
+                <numPasses Value="60"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Drill Vias" NoThickTitle="Vias">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Copper/Vias/Drill Vias"/>
+                <maxPower Value="80"/>
+                <maxPower2 Value="20"/>
+                <speed Value="50"/>
+                <numPasses Value="60"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+</LightBurnLibrary>
