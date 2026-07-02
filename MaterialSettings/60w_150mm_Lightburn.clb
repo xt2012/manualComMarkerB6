@@ -1,0 +1,1973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightBurnLibrary DisplayName="MarkParam">
+    <Material name="Aluminum">
+        <Entry Thickness="-1.0000" Desc="Engrave" NoThickTitle="General">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Aluminum/General/Engrave"/>
+                <minPower Value="54"/>
+                <maxPower Value="54"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1000"/>
+                <frequency Value="25000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Dark" NoThickTitle="General">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Aluminum/General/Dark"/>
+                <minPower Value="54"/>
+                <maxPower Value="61"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1500"/>
+                <frequency Value="45000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.002"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="White Finish" NoThickTitle="General">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Aluminum/General/White Finish"/>
+                <minPower Value="17"/>
+                <maxPower Value="17"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="750"/>
+                <frequency Value="45000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Brilliance Laser Ink" NoThickTitle="Catalyst">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Aluminum/Catalyst/Brilliance Laser Ink"/>
+                <minPower Value="17"/>
+                <maxPower Value="22"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="110"/>
+                <frequency Value="50000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Cut" NoThickTitle="Cut">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Aluminum/Cut/Cut"/>
+                <minPower Value="17"/>
+                <maxPower Value="61"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="2500"/>
+                <frequency Value="37000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Brass">
+        <Entry Thickness="-1.0000" Desc="Engrave" NoThickTitle="General">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Brass/General/Engrave"/>
+                <minPower Value="17"/>
+                <maxPower Value="34"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1500"/>
+                <frequency Value="25000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Black Deep" NoThickTitle="General">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Brass/General/Black Deep"/>
+                <minPower Value="17"/>
+                <maxPower Value="61"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="120"/>
+                <frequency Value="50000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Photo Details" NoThickTitle="Raster">
+            <CutSetting type="Image">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Brass/Raster/Photo Details"/>
+                <minPower Value="12"/>
+                <maxPower Value="61"/>
+                <maxPower2 Value="20"/>
+                <speed Value="250"/>
+                <frequency Value="50000"/>
+                <JumpSpeed Value="4000"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <interval Value="0.025"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <cellsPerInch Value="200"/>
+                <ditherMode Value="halftone"/>
+                <dpi Value="1016"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Copper">
+        <Entry Thickness="-1.0000" Desc="Engrave" NoThickTitle="General">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Copper/General/Engrave"/>
+                <minPower Value="17"/>
+                <maxPower Value="61"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="120"/>
+                <frequency Value="50000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Electro Plating">
+        <Entry Thickness="-1.0000" Desc="Engrave" NoThickTitle="General">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Electro Plating/General/Engrave"/>
+                <minPower Value="17"/>
+                <maxPower Value="54"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1000"/>
+                <frequency Value="25000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Experimental">
+        <Entry Thickness="-1.0000" Desc="General" NoThickTitle="ABS">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Experimental/ABS/General"/>
+                <minPower Value="10"/>
+                <maxPower Value="13"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="5000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Black" NoThickTitle="ABS">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Experimental/ABS/Black"/>
+                <minPower Value="10"/>
+                <maxPower Value="27"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="3800"/>
+                <frequency Value="200000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="White" NoThickTitle="ABS">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Experimental/ABS/White"/>
+                <minPower Value="10"/>
+                <maxPower Value="13"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1500"/>
+                <frequency Value="90000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Tan" NoThickTitle="Delrin Black">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Experimental/Delrin Black/Tan"/>
+                <minPower Value="8"/>
+                <maxPower Value="8"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1500"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Stipple" NoThickTitle="Glock Polymer">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Experimental/Glock Polymer/Stipple"/>
+                <minPower Value="8"/>
+                <maxPower Value="27"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="3000"/>
+                <frequency Value="190000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Engrave" NoThickTitle="Glock Polymer">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Experimental/Glock Polymer/Engrave"/>
+                <minPower Value="8"/>
+                <maxPower Value="20"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="2000"/>
+                <frequency Value="190000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="White" NoThickTitle="CPVC (DANGER)">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Experimental/CPVC (DANGER)/White"/>
+                <minPower Value="8"/>
+                <maxPower Value="12"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1800"/>
+                <frequency Value="25000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="General" NoThickTitle="Kydex">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Experimental/Kydex/General"/>
+                <minPower Value="8"/>
+                <maxPower Value="12"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1800"/>
+                <frequency Value="25000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Engrave" NoThickTitle="Tin">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Experimental/Tin/Engrave"/>
+                <minPower Value="8"/>
+                <maxPower Value="34"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1000"/>
+                <frequency Value="25000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Gray" NoThickTitle="Pewter">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Experimental/Pewter/Gray"/>
+                <minPower Value="6"/>
+                <maxPower Value="6"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="220"/>
+                <frequency Value="190000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Silver" NoThickTitle="Pewter">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Experimental/Pewter/Silver"/>
+                <minPower Value="6"/>
+                <maxPower Value="6"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="330"/>
+                <frequency Value="25000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Engrave" NoThickTitle="Rock and Stone">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Experimental/Rock and Stone/Engrave"/>
+                <minPower Value="6"/>
+                <maxPower Value="47"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="2500"/>
+                <frequency Value="25000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Mark" NoThickTitle="Browning Firearm Composite">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Experimental/Browning Firearm Composite/Mark"/>
+                <minPower Value="6"/>
+                <maxPower Value="13"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="3050"/>
+                <frequency Value="90000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Mark" NoThickTitle="Golf Ball">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Experimental/Golf Ball/Mark"/>
+                <minPower Value="6"/>
+                <maxPower Value="11"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1750"/>
+                <frequency Value="25000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Gray" NoThickTitle="Glass (Steel Backed)">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Experimental/Glass (Steel Backed)/Gray"/>
+                <minPower Value="8"/>
+                <maxPower Value="61"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <floodFill Value="1"/>
+                <interval Value="0.01"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Remove 1 Layer" NoThickTitle="Cerkote">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Experimental/Cerkote/Remove 1 Layer"/>
+                <minPower Value="8"/>
+                <maxPower Value="40"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="355"/>
+                <frequency Value="45000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.01"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Gold">
+        <Entry Thickness="-1.0000" Desc="Base" NoThickTitle="14K White">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Gold/14K White/Base"/>
+                <minPower Value="10"/>
+                <maxPower Value="27"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="500"/>
+                <frequency Value="25000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Cleanup" NoThickTitle="14K White">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Gold/14K White/Cleanup"/>
+                <minPower Value="10"/>
+                <maxPower Value="17"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="750"/>
+                <frequency Value="45000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Anneal White" NoThickTitle="14K White">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Gold/14K White/Anneal White"/>
+                <minPower Value="10"/>
+                <maxPower Value="34"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="2500"/>
+                <frequency Value="190000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Gold Sparkle (to .001)" NoThickTitle="14K White">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Gold/14K White/Gold Sparkle (to .001)"/>
+                <minPower Value="10"/>
+                <maxPower Value="17"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="750"/>
+                <frequency Value="200000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.002"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Black (to .001)" NoThickTitle="14K White">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Gold/14K White/Black (to .001)"/>
+                <minPower Value="10"/>
+                <maxPower Value="17"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="750"/>
+                <frequency Value="25000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.002"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="1 Base" NoThickTitle="14K White Photo">
+            <CutSetting type="Image">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Gold/14K White Photo/1 Base"/>
+                <minPower Value="12"/>
+                <maxPower Value="27"/>
+                <maxPower2 Value="20"/>
+                <speed Value="500"/>
+                <frequency Value="25000"/>
+                <JumpSpeed Value="4000"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <interval Value="0.025"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <cellsPerInch Value="200"/>
+                <ditherMode Value="halftone"/>
+                <dpi Value="1016"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="2 White" NoThickTitle="14K White Photo">
+            <CutSetting type="Image">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Gold/14K White Photo/2 White"/>
+                <minPower Value="12"/>
+                <maxPower Value="34"/>
+                <maxPower2 Value="20"/>
+                <speed Value="2500"/>
+                <frequency Value="190000"/>
+                <JumpSpeed Value="4000"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <interval Value="0.025"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <cellsPerInch Value="200"/>
+                <ditherMode Value="halftone"/>
+                <dpi Value="1016"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="3 Details" NoThickTitle="14K White Photo">
+            <CutSetting type="Image">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Gold/14K White Photo/3 Details"/>
+                <minPower Value="12"/>
+                <maxPower Value="17"/>
+                <maxPower2 Value="20"/>
+                <speed Value="750"/>
+                <frequency Value="25000"/>
+                <JumpSpeed Value="4000"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <interval Value="0.025"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <cellsPerInch Value="200"/>
+                <ditherMode Value="halftone"/>
+                <dpi Value="1016"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Base" NoThickTitle="14K Rose">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Gold/14K Rose/Base"/>
+                <minPower Value="10"/>
+                <maxPower Value="27"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="500"/>
+                <frequency Value="25000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Cleanup" NoThickTitle="14K Rose">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Gold/14K Rose/Cleanup"/>
+                <minPower Value="10"/>
+                <maxPower Value="17"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="750"/>
+                <frequency Value="45000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Bright" NoThickTitle="14K Rose">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Gold/14K Rose/Bright"/>
+                <minPower Value="10"/>
+                <maxPower Value="34"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="2500"/>
+                <frequency Value="190000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Medium (to .001)" NoThickTitle="14K Rose">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Gold/14K Rose/Medium (to .001)"/>
+                <minPower Value="10"/>
+                <maxPower Value="17"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="750"/>
+                <frequency Value="200000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.002"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Dark (to .001)" NoThickTitle="14K Rose">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Gold/14K Rose/Dark (to .001)"/>
+                <minPower Value="10"/>
+                <maxPower Value="17"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="750"/>
+                <frequency Value="25000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.002"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Base" NoThickTitle="10-14K Yellow">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Gold/10-14K Yellow/Base"/>
+                <minPower Value="10"/>
+                <maxPower Value="27"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="500"/>
+                <frequency Value="25000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Cleanup" NoThickTitle="10-14K Yellow">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Gold/10-14K Yellow/Cleanup"/>
+                <minPower Value="10"/>
+                <maxPower Value="17"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="750"/>
+                <frequency Value="45000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Bright" NoThickTitle="10-14K Yellow">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Gold/10-14K Yellow/Bright"/>
+                <minPower Value="10"/>
+                <maxPower Value="34"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="2500"/>
+                <frequency Value="190000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Medium (to .001)" NoThickTitle="10-14K Yellow">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Gold/10-14K Yellow/Medium (to .001)"/>
+                <minPower Value="10"/>
+                <maxPower Value="17"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="750"/>
+                <frequency Value="200000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.002"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Dark (to .001)" NoThickTitle="10-14K Yellow">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Gold/10-14K Yellow/Dark (to .001)"/>
+                <minPower Value="10"/>
+                <maxPower Value="17"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="750"/>
+                <frequency Value="25000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.002"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="1 Base" NoThickTitle="10-14K Y/R Photo">
+            <CutSetting type="Image">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Gold/10-14K Y/R Photo/1 Base"/>
+                <minPower Value="12"/>
+                <maxPower Value="27"/>
+                <maxPower2 Value="20"/>
+                <speed Value="500"/>
+                <frequency Value="25000"/>
+                <JumpSpeed Value="4000"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <interval Value="0.025"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <cellsPerInch Value="200"/>
+                <ditherMode Value="halftone"/>
+                <dpi Value="1016"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="2 Cleanup" NoThickTitle="10-14K Y/R Photo">
+            <CutSetting type="Image">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Gold/10-14K Y/R Photo/2 Cleanup"/>
+                <minPower Value="12"/>
+                <maxPower Value="17"/>
+                <maxPower2 Value="20"/>
+                <speed Value="750"/>
+                <frequency Value="45000"/>
+                <JumpSpeed Value="4000"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <interval Value="0.025"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <cellsPerInch Value="200"/>
+                <ditherMode Value="halftone"/>
+                <dpi Value="1016"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="3 Details" NoThickTitle="10-14K Y/R Photo">
+            <CutSetting type="Image">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Gold/10-14K Y/R Photo/3 Details"/>
+                <minPower Value="12"/>
+                <maxPower Value="17"/>
+                <maxPower2 Value="20"/>
+                <speed Value="750"/>
+                <frequency Value="25000"/>
+                <JumpSpeed Value="4000"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <interval Value="0.025"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <cellsPerInch Value="200"/>
+                <ditherMode Value="halftone"/>
+                <dpi Value="1016"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Cut" NoThickTitle="10-14K Cut">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Gold/10-14K Cut/Cut"/>
+                <minPower Value="10"/>
+                <maxPower Value="61"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="100"/>
+                <frequency Value="37000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.002"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Granite">
+        <Entry Thickness="-1.0000" Desc="Gray" NoThickTitle="Black">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Granite/Black/Gray"/>
+                <minPower Value="10"/>
+                <maxPower Value="54"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1000"/>
+                <frequency Value="25000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Leather">
+        <Entry Thickness="-1.0000" Desc="Gentle" NoThickTitle="Standard">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Leather/Standard/Gentle"/>
+                <minPower Value="10"/>
+                <maxPower Value="17"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="500"/>
+                <frequency Value="200000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Gentle" NoThickTitle="Low KHZ">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Leather/Low KHZ/Gentle"/>
+                <minPower Value="10"/>
+                <maxPower Value="17"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="500"/>
+                <frequency Value="50000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="General" NoThickTitle="Standard">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Leather/Standard/General"/>
+                <minPower Value="10"/>
+                <maxPower Value="20"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="500"/>
+                <frequency Value="200000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="General" NoThickTitle="Low KHZ">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Leather/Low KHZ/General"/>
+                <minPower Value="10"/>
+                <maxPower Value="20"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="500"/>
+                <frequency Value="50000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Resistant" NoThickTitle="Standard">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Leather/Standard/Resistant"/>
+                <minPower Value="10"/>
+                <maxPower Value="27"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="500"/>
+                <frequency Value="200000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Resistant" NoThickTitle="Low KHZ">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Leather/Low KHZ/Resistant"/>
+                <minPower Value="10"/>
+                <maxPower Value="27"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="500"/>
+                <frequency Value="50000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="*Large Projects" NoThickTitle="Standard">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Leather/Standard/*Large Projects"/>
+                <minPower Value="10"/>
+                <maxPower Value="40"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="500"/>
+                <frequency Value="200000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="PMAG">
+        <Entry Thickness="-1.0000" Desc="Tan (to 7500)" NoThickTitle="General">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="PMAG/General/Tan (to 7500)"/>
+                <maxPower Value="20"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="5000"/>
+                <frequency Value="50000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <numPasses Value="2"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <floodFill Value="1"/>
+                <interval Value="0.05"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Brown" NoThickTitle="General">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="PMAG/General/Brown"/>
+                <maxPower Value="50"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="2000"/>
+                <frequency Value="50000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <floodFill Value="1"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Gray (to 6000)" NoThickTitle="General">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="PMAG/General/Gray (to 6000)"/>
+                <minPower Value="10"/>
+                <maxPower Value="10"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="5000"/>
+                <frequency Value="50000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <floodFill Value="1"/>
+                <interval Value="0.08"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Polyester">
+        <Entry Thickness="-1.0000" Desc="Thin Sheet" NoThickTitle="Cut">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Polyester/Cut/Thin Sheet"/>
+                <minPower Value="10"/>
+                <maxPower Value="54"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1000"/>
+                <frequency Value="25000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <floodFill Value="1"/>
+                <interval Value="0.08"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Powder Coat">
+        <Entry Thickness="-1.0000" Desc="Project Removal (Multi-pass Required)" NoThickTitle="General">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Powder Coat/General/Project Removal (Multi-pass Required)"/>
+                <minPower Value="10"/>
+                <maxPower Value="34"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1000"/>
+                <frequency Value="150000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Rotary Removal" NoThickTitle="General">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Powder Coat/General/Rotary Removal"/>
+                <minPower Value="10"/>
+                <maxPower Value="40"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="750"/>
+                <frequency Value="80000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <overscan Value="0"/>
+                <interval Value="0.02"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Heavy Coat Photo" NoThickTitle="Photo">
+            <CutSetting type="Image">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Powder Coat/Photo/Heavy Coat Photo"/>
+                <minPower Value="12"/>
+                <maxPower Value="61"/>
+                <maxPower2 Value="20"/>
+                <speed Value="500"/>
+                <frequency Value="25000"/>
+                <JumpSpeed Value="4000"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <interval Value="0.025"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <cellsPerInch Value="200"/>
+                <ditherMode Value="halftone"/>
+                <dpi Value="1016"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Silver">
+        <Entry Thickness="-1.0000" Desc="Engrave" NoThickTitle="General">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Silver/General/Engrave"/>
+                <minPower Value="10"/>
+                <maxPower Value="23"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="500"/>
+                <frequency Value="25000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Dark Deep" NoThickTitle="General">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Silver/General/Dark Deep"/>
+                <minPower Value="10"/>
+                <maxPower Value="40"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="300"/>
+                <frequency Value="25000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Satin Finish" NoThickTitle="General">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Silver/General/Satin Finish"/>
+                <minPower Value="10"/>
+                <maxPower Value="17"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="750"/>
+                <frequency Value="45000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="1 Base" NoThickTitle="Photo">
+            <CutSetting type="Image">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Silver/Photo/1 Base"/>
+                <minPower Value="12"/>
+                <maxPower Value="61"/>
+                <maxPower2 Value="20"/>
+                <speed Value="100"/>
+                <frequency Value="25000"/>
+                <JumpSpeed Value="4000"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <interval Value="0.025"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <cellsPerInch Value="200"/>
+                <ditherMode Value="halftone"/>
+                <dpi Value="1016"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="2 White" NoThickTitle="Photo">
+            <CutSetting type="Image">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Silver/Photo/2 White"/>
+                <minPower Value="12"/>
+                <maxPower Value="17"/>
+                <maxPower2 Value="20"/>
+                <speed Value="750"/>
+                <frequency Value="50000"/>
+                <JumpSpeed Value="4000"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <interval Value="0.025"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <cellsPerInch Value="200"/>
+                <ditherMode Value="halftone"/>
+                <dpi Value="1016"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="3 Details" NoThickTitle="Photo">
+            <CutSetting type="Image">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Silver/Photo/3 Details"/>
+                <minPower Value="12"/>
+                <maxPower Value="61"/>
+                <maxPower2 Value="20"/>
+                <speed Value="150"/>
+                <frequency Value="25000"/>
+                <JumpSpeed Value="4000"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <interval Value="0.025"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <cellsPerInch Value="200"/>
+                <ditherMode Value="halftone"/>
+                <dpi Value="1016"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Slate">
+        <Entry Thickness="-1.0000" Desc="Light Gray" NoThickTitle="General">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Slate/General/Light Gray"/>
+                <minPower Value="10"/>
+                <maxPower Value="54"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1000"/>
+                <frequency Value="25000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.01"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="White" NoThickTitle="General">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Slate/General/White"/>
+                <minPower Value="10"/>
+                <maxPower Value="54"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1000"/>
+                <frequency Value="25000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.01"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Tan" NoThickTitle="General">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Slate/General/Tan"/>
+                <minPower Value="10"/>
+                <maxPower Value="61"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="150"/>
+                <frequency Value="45000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.01"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Steel">
+        <Entry Thickness="-1.0000" Desc="Engrave" NoThickTitle="General">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Steel/General/Engrave"/>
+                <minPower Value="10"/>
+                <maxPower Value="61"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="500"/>
+                <frequency Value="25000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="White Finish" NoThickTitle="General">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Steel/General/White Finish"/>
+                <minPower Value="10"/>
+                <maxPower Value="17"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="750"/>
+                <frequency Value="45000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Z-Mark Black" NoThickTitle="General">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Steel/General/Z-Mark Black"/>
+                <minPower Value="10"/>
+                <maxPower Value="23"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="50"/>
+                <frequency Value="25000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Anneal" NoThickTitle="General">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Steel/General/Anneal"/>
+                <minPower Value="10"/>
+                <maxPower Value="20"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="330"/>
+                <frequency Value="190000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Deep Engrave" NoThickTitle="General">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Steel/General/Deep Engrave"/>
+                <minPower Value="10"/>
+                <maxPower Value="61"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1900"/>
+                <frequency Value="37000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <floodFill Value="1"/>
+                <interval Value="0.01"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Titanium">
+        <Entry Thickness="-1.0000" Desc="Engrave" NoThickTitle="General">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Titanium/General/Engrave"/>
+                <minPower Value="10"/>
+                <maxPower Value="47"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1300"/>
+                <frequency Value="25000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Z-Mark Black" NoThickTitle="General">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Titanium/General/Z-Mark Black"/>
+                <minPower Value="10"/>
+                <maxPower Value="34"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="250"/>
+                <frequency Value="25000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Anneal Gold" NoThickTitle="General">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Titanium/General/Anneal Gold"/>
+                <minPower Value="10"/>
+                <maxPower Value="20"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="330"/>
+                <frequency Value="190000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Wood">
+        <Entry Thickness="-1.0000" Desc="Black" NoThickTitle="Pine">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Wood/Pine/Black"/>
+                <minPower Value="10"/>
+                <maxPower Value="27"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="35"/>
+                <frequency Value="50000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.2"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Zinc">
+        <Entry Thickness="-1.0000" Desc="Core Darken" NoThickTitle="General">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Zinc/General/Core Darken"/>
+                <minPower Value="17"/>
+                <maxPower Value="54"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="500"/>
+                <frequency Value="25000"/>
+                <PPI Value="0"/>
+                <JumpSpeed Value="4000"/>
+                <perfLen Value="0.01"/>
+                <perfSkip Value="0.01"/>
+                <dotTime Value="1"/>
+                <bidir Value="0"/>
+                <crossHatch Value="1"/>
+                <overscan Value="0"/>
+                <interval Value="0.025"/>
+                <angle Value="45"/>
+                <priority Value="0"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+</LightBurnLibrary>
